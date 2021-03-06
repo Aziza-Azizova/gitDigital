@@ -1,0 +1,143 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Helvetica', 'Metropolis', sans-serif;
+  font-weight: normal;
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  background-repeat: no-repeat;
+}
+.container{
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ************** */
+/* SECTION 1 */
+/* ************** */
+.section-1{
+  margin-top: 50px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list{
+  display: flex;
+  list-style: none;
+  margin-left: 120px;
+}
+.list__item{
+  list-style: none;
+}
+.list_link{
+  text-decoration: none;
+  margin-right: 40px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: rgb(0, 0, 0) ;
+}
+.btn--light{
+  color: #000;
+  background: #fff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, .1);
+  display: flex;
+  padding: 17px 29px;
+  transition: all .2s;
+}
+.btn--light:hover::after{
+  transform: translateX(  10px);
+}
+.btn--light::after{
+  content: '';
+  background-image: url(./images/arrow-right/btn/Group-56.svg);
+  background-size: contain;
+  height: 14px;
+  width: 19px;
+  margin-left: 10px;
+  display: inline-block;
+  align-items: center;
+}
+.btn--ligh:hover{
+
+}
+.background-img{
+  background-image: url(./images/background-img.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-right: 30px;
+}
+.section-1__block{
+  margin-top: 147px;
+  min-height: 564px;
+  margin-left: 128px;
+}
+.section-1_h1{
+width: 645px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 110%;
+display: flex;
+align-items: center;
+color: #212353;
+}
+.section-1_text{
+width: 380px;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+}
+.btn--dark{
+background: #9C69E2;
+border-radius: 50px;
+padding: 16px 37px;
+margin-top: 50px;
+}
+.section-2__block{
+display: flex;
+background: rgba(240, 99, 184, 0.15);
+border-radius: 50px;
+}
+.img{
+}
+.section-2__content{
+
+}
+.section-2_h1{
+width: 475px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+display: flex;
+color: #212353;
+}
+.section-2_text{
+width: 474px;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+}

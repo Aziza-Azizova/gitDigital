@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Metropolis', sans-serif;
+  font-weight: normal;
+}
+
+/* ************** */
+/* COMPONENTS */
+/* ************** */
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ************** */
+/* SECTION 1 */
+/* ************** */
+.section-1 {
+  margin-top: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.list {
+  display: flex;
+  list-style: none;
+
+  margin-left: 120px;
+}
+
+.list__item {
+  list-style: none;
+}
+
+.list__link {
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
